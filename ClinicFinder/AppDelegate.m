@@ -10,6 +10,12 @@
 #import "DetailViewController.h"
 #import "MasterViewController.h"
 
+#import <IBMBluemix/IBMBluemix.h>
+#import <IBMPush/IBMPush.h>
+#import <IBMData/IBMData.h>
+
+#import "Clinics.h"
+
 @interface AppDelegate ()
 
 @end
@@ -22,8 +28,18 @@
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
-    return YES;
+    
+    
+    [IBMBluemix initializeWithApplicationId: @"6dd17203-7929-4d74-aff2-a9a7adfde561"
+                       andApplicationSecret: @"c07415a069b0ea35453ad67e36c93f732ae236cc"
+                        andApplicationRoute: @"clinics.mybluemix.net"];
+    
+    
+    [IBMData initializeService];
+    
+        return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

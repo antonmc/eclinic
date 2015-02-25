@@ -8,12 +8,15 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "Clinics.h"
 
 @interface MasterViewController ()
 
 @end
 
 @implementation MasterViewController
+
+NSArray* clinicList;
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -26,6 +29,32 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    
+   [self fetch];
+}
+
+#pragma mark Methods to list, create, update, and delete items
+- (void)fetch
+{
+    IBMQuery *qry = [Clinics query];
+    
+    [[qry find] continueWithBlock:^id(BFTask *task) {
+        if(task.error) {
+            NSLog(@"listItems failed with error: %@", task.error);
+        } else {
+            
+            NSMutableArray* list = [NSMutableArray arrayWithArray: task.result];
+            
+            Clinics* clinics = list[0];
+            
+            clinicList = clinics.clinicList;
+            
+            [self.tableView reloadData];
+        }
+        
+        return nil;
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -69,13 +98,21 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    id <NSFetchedResultsSectionInfo> sectionInfo = [self.fetchedResultsController sections][section];
-    return [sectionInfo numberOfObjects];
+    return [clinicList count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    [self configureCell:cell atIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ClinicCell" forIndexPath:indexPath];
+    
+    if( [clinicList count] > 0 ){
+        NSMutableDictionary *clinic = [clinicList objectAtIndex:indexPath.row];
+        UILabel *clinicLabel = (UILabel *)[cell viewWithTag:100];
+        [clinicLabel setText: [ clinic objectForKey:@"center" ]];
+
+        UILabel *clinicType = (UILabel *)[cell viewWithTag:200];
+        [clinicType setText: [ clinic objectForKey:@"type" ]];
+    }
+
     return cell;
 }
 
