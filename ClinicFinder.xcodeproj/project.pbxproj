@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2271FD8A1A9D59F2007B6BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271FD891A9D59F2007B6BBD /* main.m */; };
+		2271FD8D1A9D59F2007B6BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271FD8C1A9D59F2007B6BBD /* AppDelegate.m */; };
+		2271FD901A9D59F2007B6BBD /* ClinicFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2271FD8E1A9D59F2007B6BBD /* ClinicFinder.xcdatamodeld */; };
+		2271FD931A9D59F2007B6BBD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271FD921A9D59F2007B6BBD /* MasterViewController.m */; };
+		2271FD961A9D59F2007B6BBD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271FD951A9D59F2007B6BBD /* DetailViewController.m */; };
+		2271FD991A9D59F2007B6BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2271FD971A9D59F2007B6BBD /* Main.storyboard */; };
+		2271FD9B1A9D59F2007B6BBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2271FD9A1A9D59F2007B6BBD /* Images.xcassets */; };
+		2271FD9E1A9D59F2007B6BBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2271FD9C1A9D59F2007B6BBD /* LaunchScreen.xib */; };
+		2271FDAA1A9D59F2007B6BBD /* ClinicFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271FDA91A9D59F2007B6BBD /* ClinicFinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2271FDA41A9D59F2007B6BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2271FD7C1A9D59F2007B6BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2271FD831A9D59F2007B6BBD;
+			remoteInfo = ClinicFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2271FD841A9D59F2007B6BBD /* ClinicFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClinicFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2271FD881A9D59F2007B6BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2271FD891A9D59F2007B6BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2271FD8B1A9D59F2007B6BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2271FD8C1A9D59F2007B6BBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2271FD8F1A9D59F2007B6BBD /* ClinicFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClinicFinder.xcdatamodel; sourceTree = "<group>"; };
+		2271FD911A9D59F2007B6BBD /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2271FD921A9D59F2007B6BBD /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2271FD941A9D59F2007B6BBD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2271FD951A9D59F2007B6BBD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2271FD981A9D59F2007B6BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2271FD9A1A9D59F2007B6BBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2271FD9D1A9D59F2007B6BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2271FDA31A9D59F2007B6BBD /* ClinicFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClinicFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2271FDA81A9D59F2007B6BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2271FDA91A9D59F2007B6BBD /* ClinicFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClinicFinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2271FD811A9D59F2007B6BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2271FDA01A9D59F2007B6BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2271FD7B1A9D59F2007B6BBD = {
+			isa = PBXGroup;
+			children = (
+				2271FD861A9D59F2007B6BBD /* ClinicFinder */,
+				2271FDA61A9D59F2007B6BBD /* ClinicFinderTests */,
+				2271FD851A9D59F2007B6BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2271FD851A9D59F2007B6BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2271FD841A9D59F2007B6BBD /* ClinicFinder.app */,
+				2271FDA31A9D59F2007B6BBD /* ClinicFinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2271FD861A9D59F2007B6BBD /* ClinicFinder */ = {
+			isa = PBXGroup;
+			children = (
+				2271FD8B1A9D59F2007B6BBD /* AppDelegate.h */,
+				2271FD8C1A9D59F2007B6BBD /* AppDelegate.m */,
+				2271FD911A9D59F2007B6BBD /* MasterViewController.h */,
+				2271FD921A9D59F2007B6BBD /* MasterViewController.m */,
+				2271FD941A9D59F2007B6BBD /* DetailViewController.h */,
+				2271FD951A9D59F2007B6BBD /* DetailViewController.m */,
+				2271FD971A9D59F2007B6BBD /* Main.storyboard */,
+				2271FD9A1A9D59F2007B6BBD /* Images.xcassets */,
+				2271FD9C1A9D59F2007B6BBD /* LaunchScreen.xib */,
+				2271FD8E1A9D59F2007B6BBD /* ClinicFinder.xcdatamodeld */,
+				2271FD871A9D59F2007B6BBD /* Supporting Files */,
+			);
+			path = ClinicFinder;
+			sourceTree = "<group>";
+		};
+		2271FD871A9D59F2007B6BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2271FD881A9D59F2007B6BBD /* Info.plist */,
+				2271FD891A9D59F2007B6BBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2271FDA61A9D59F2007B6BBD /* ClinicFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2271FDA91A9D59F2007B6BBD /* ClinicFinderTests.m */,
+				2271FDA71A9D59F2007B6BBD /* Supporting Files */,
+			);
+			path = ClinicFinderTests;
+			sourceTree = "<group>";
+		};
+		2271FDA71A9D59F2007B6BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2271FDA81A9D59F2007B6BBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2271FD831A9D59F2007B6BBD /* ClinicFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2271FDAD1A9D59F2007B6BBD /* Build configuration list for PBXNativeTarget "ClinicFinder" */;
+			buildPhases = (
+				2271FD801A9D59F2007B6BBD /* Sources */,
+				2271FD811A9D59F2007B6BBD /* Frameworks */,
+				2271FD821A9D59F2007B6BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClinicFinder;
+			productName = ClinicFinder;
+			productReference = 2271FD841A9D59F2007B6BBD /* ClinicFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2271FDA21A9D59F2007B6BBD /* ClinicFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2271FDB01A9D59F2007B6BBD /* Build configuration list for PBXNativeTarget "ClinicFinderTests" */;
+			buildPhases = (
+				2271FD9F1A9D59F2007B6BBD /* Sources */,
+				2271FDA01A9D59F2007B6BBD /* Frameworks */,
+				2271FDA11A9D59F2007B6BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2271FDA51A9D59F2007B6BBD /* PBXTargetDependency */,
+			);
+			name = ClinicFinderTests;
+			productName = ClinicFinderTests;
+			productReference = 2271FDA31A9D59F2007B6BBD /* ClinicFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2271FD7C1A9D59F2007B6BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = IBM;
+				TargetAttributes = {
+					2271FD831A9D59F2007B6BBD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2271FDA21A9D59F2007B6BBD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2271FD831A9D59F2007B6BBD;
+					};
+				};
+			};
+			buildConfigurationList = 2271FD7F1A9D59F2007B6BBD /* Build configuration list for PBXProject "ClinicFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2271FD7B1A9D59F2007B6BBD;
+			productRefGroup = 2271FD851A9D59F2007B6BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2271FD831A9D59F2007B6BBD /* ClinicFinder */,
+				2271FDA21A9D59F2007B6BBD /* ClinicFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2271FD821A9D59F2007B6BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2271FD991A9D59F2007B6BBD /* Main.storyboard in Resources */,
+				2271FD9E1A9D59F2007B6BBD /* LaunchScreen.xib in Resources */,
+				2271FD9B1A9D59F2007B6BBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2271FDA11A9D59F2007B6BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2271FD801A9D59F2007B6BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2271FD961A9D59F2007B6BBD /* DetailViewController.m in Sources */,
+				2271FD931A9D59F2007B6BBD /* MasterViewController.m in Sources */,
+				2271FD8D1A9D59F2007B6BBD /* AppDelegate.m in Sources */,
+				2271FD8A1A9D59F2007B6BBD /* main.m in Sources */,
+				2271FD901A9D59F2007B6BBD /* ClinicFinder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2271FD9F1A9D59F2007B6BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2271FDAA1A9D59F2007B6BBD /* ClinicFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2271FDA51A9D59F2007B6BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2271FD831A9D59F2007B6BBD /* ClinicFinder */;
+			targetProxy = 2271FDA41A9D59F2007B6BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2271FD971A9D59F2007B6BBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2271FD981A9D59F2007B6BBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2271FD9C1A9D59F2007B6BBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2271FD9D1A9D59F2007B6BBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2271FDAB1A9D59F2007B6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2271FDAC1A9D59F2007B6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2271FDAE1A9D59F2007B6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClinicFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2271FDAF1A9D59F2007B6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClinicFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2271FDB11A9D59F2007B6BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClinicFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClinicFinder.app/ClinicFinder";
+			};
+			name = Debug;
+		};
+		2271FDB21A9D59F2007B6BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClinicFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClinicFinder.app/ClinicFinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2271FD7F1A9D59F2007B6BBD /* Build configuration list for PBXProject "ClinicFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2271FDAB1A9D59F2007B6BBD /* Debug */,
+				2271FDAC1A9D59F2007B6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2271FDAD1A9D59F2007B6BBD /* Build configuration list for PBXNativeTarget "ClinicFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2271FDAE1A9D59F2007B6BBD /* Debug */,
+				2271FDAF1A9D59F2007B6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2271FDB01A9D59F2007B6BBD /* Build configuration list for PBXNativeTarget "ClinicFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2271FDB11A9D59F2007B6BBD /* Debug */,
+				2271FDB21A9D59F2007B6BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2271FD8E1A9D59F2007B6BBD /* ClinicFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2271FD8F1A9D59F2007B6BBD /* ClinicFinder.xcdatamodel */,
+			);
+			currentVersion = 2271FD8F1A9D59F2007B6BBD /* ClinicFinder.xcdatamodel */;
+			path = ClinicFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2271FD7C1A9D59F2007B6BBD /* Project object */;
+}
